@@ -86,8 +86,8 @@ class Artist
     }
 
     public function __toString(): string
-{
-    // TODO: Implement __toString() method.
-    return $this->getFirstName();
-}
+    {
+        // TODO: Implement __toString() method.
+        return $this->getFirstName();
+    }
 }
